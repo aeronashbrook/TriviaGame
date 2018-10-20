@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Trivia Game</title>
+    <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+    <div id="start">
+        <h1 id="game">Nintendo Trivia</h1>
+        <h1 id="startgame">Start Game</h1>
+    </div>
+
+    <div id ="countdown"></div>
+
+    <div id="questions">
+        <form class="style" id="question1">
+            <p>In what year was the first Mario game released?</p>
+            <input type="radio" name="guess" value="1980"> <label>1980</label>
+            <input type="radio" name="guess" value="1991"> <label>1991</label>
+            <input type="radio" id="Q1" name="guess" value="1985"> <label>1985</label>
+            <input type="radio" name="guess" value="1982"> <label>1982</label>
+        </form>
+        <form class="style" id="question2">
+            <p>What is the best selling Nintendo console of all time?</p>
+            <input type="radio" id="Q2" name="guess" value="Wii"> <label>Wii</label>
+            <input type="radio" name="guess" value="Switch"> <label>Switch</label>
+            <input type="radio" name="guess" value="Super"> <label>Super Nintendo</label>
+            <input type="radio" name="guess" value="64"> <label>Nintendo 64</label>
+        </form>
+        <form class="style" id="question3">
+            <p>What day is International Mario Day?</p>
+            <input type="radio" name="guess" value="14"> <label>July 14th</label>
+            <input type="radio" name="guess" value="15"> <label>November 15th</label>
+            <input type="radio" id="Q3" name="guess" value="10"> <label>March 10th</label>
+            <input type="radio" name="guess" value="24"> <label>January 24th</label>
+        </form>
+        <form  class="style" id="question4">
+            <p>Which pro baseball team did Nintendo become majority owner of in 1992?</p>
+            <input type="radio" id="Q4" name="guess" value="SEA"> <label>Seattle Mariners</label>
+            <input type="radio" name="guess" value="MN"> <label>Minnesota Twins</label>
+            <input type="radio" name="guess" value="HOU"> <label>Houston Astros</label>
+            <input type="radio" name="guess" value="CO"> <label>Colorado Rockies</label>
+        </form>
+        <form class="style" id="question5">
+            <p>What was Mario's original name?</p>
+            <input type="radio"  name="guess" value="SEA"> <label>Luigi</label>
+            <input type="radio" name="guess" value="MN"> <label>Plumber Man</label>
+            <input type="radio" name="guess" value="HOU"> <label>Big Red</label>
+            <input type="radio" id="Q5" name="guess" value="CO"> <label>Jumpman</label>
+        </form>
+    </div>
+    <h2 class="answers" id="test"></h2>
+    <h3 class="answers" id="test2"></h3>
+
+</body>
+</html>

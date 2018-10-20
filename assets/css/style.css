@@ -1,0 +1,63 @@
+h1 {
+    font-family: 'VT323', monospace;
+    color: white;
+    text-align: center;
+}
+body {
+    background-image: url("http://www.mariomayhem.com/fun/smb_level_editor/images/overworld_bg.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#game {
+    font-family: 'VT323', monospace;
+    color: white;
+    text-align: center;
+    font-size: 48px;
+}
+#startgame {
+    margin-top: 160px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    font-family: 'VT323', monospace;
+    text-align: center;
+    color: white;
+    border: solid 4px white;
+    font-size: 48px;
+}
+
+#countdown {
+    font-family: 'VT323', monospace;
+    text-align: center;
+    font-size: 28px;
+    color: white;
+    margin-top: 12px;
+}
+
+#questions {
+    display: none;
+    text-align: center;
+}
+
+p {
+    font-family: 'VT323', monospace;
+    text-align: center;
+    font-size: 28px;
+    color: white; 
+}
+
+.style {
+    margin: auto;
+}
+label {
+    font-family: 'VT323', monospace;
+    font-size: 24px;
+    color: white; 
+}
+
+.answers {
+    font-family: 'VT323', monospace;
+    text-align: center;
+    font-size: 68px;
+    color: white;  
+}
